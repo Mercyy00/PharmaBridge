@@ -1,0 +1,93 @@
+:root {
+  --pb-blue: #1370e8;
+  --pb-blue-dark: #0e5cc0;
+  --pb-navy: #0b2a5b;
+  --pb-light: #eaf3fd;
+  --pb-muted: #5f7593;
+  --pb-border: #e1ebf7;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--pb-navy);
+}
+
+.text-muted-pb { color: var(--pb-muted); }
+
+/* Buttons */
+.btn-pb {
+  background: var(--pb-blue);
+  color: #fff;
+  border: 0;
+  border-radius: 50px;
+  padding: 0.6rem 1.4rem;
+  font-weight: 600;
+}
+.btn-pb:hover { background: var(--pb-blue-dark); color: #fff; }
+
+.btn-outline-pb {
+  background: #fff;
+  color: var(--pb-blue);
+  border: 1px solid var(--pb-blue);
+  border-radius: 50px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+}
+.btn-outline-pb:hover { background: var(--pb-blue); color: #fff; }
+
+/* Hero box (light blue rounded box at top of every page) */
+.hero {
+  background: var(--pb-light);
+  border-radius: 20px;
+  padding: 3rem;
+}
+
+/* Small blue uppercase label above headings */
+.eyebrow {
+  color: var(--pb-blue);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* White rounded card */
+.pb-card {
+  background: #fff;
+  border: 1px solid var(--pb-border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  height: 100%;
+  box-shadow: 0 4px 14px rgba(19, 112, 232, 0.06);
+}
+
+/* Round icon holder */
+.icon-circle {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--pb-light);
+  color: var(--pb-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+/* Light blue section band */
+.band {
+  background: var(--pb-light);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+/* Navbar active link */
+.navbar .nav-link.active {
+  color: var(--pb-blue) !important;
+  border-bottom: 2px solid var(--pb-blue);
+}
+
+/* Footer */
+.footer-pb { background: #0d2b55; color: #fff; }
+.footer-pb a { color: #c9d8ee; text-decoration: none; font-size: 0.85rem; }
+.footer-pb a:hover { color: #fff; }
